@@ -7,7 +7,10 @@
 	"minAppVersion": "0.1.0",
 	"main": "dist/main.js",
 	"icon": "icon.svg",
-	"size": { "w": 2, "h": 1 },
+	"size": {
+		"w": 2,
+		"h": 1
+	},
 	"settings": [
 		{
 			"key": "focus",
@@ -15,10 +18,22 @@
 			"type": "select",
 			"default": "25",
 			"options": [
-				{ "value": "15", "label": "15 minutes" },
-				{ "value": "25", "label": "25 minutes" },
-				{ "value": "45", "label": "45 minutes" },
-				{ "value": "50", "label": "50 minutes" }
+				{
+					"value": "15",
+					"label": "15 minutes"
+				},
+				{
+					"value": "25",
+					"label": "25 minutes"
+				},
+				{
+					"value": "45",
+					"label": "45 minutes"
+				},
+				{
+					"value": "50",
+					"label": "50 minutes"
+				}
 			]
 		},
 		{
@@ -27,9 +42,18 @@
 			"type": "select",
 			"default": "5",
 			"options": [
-				{ "value": "5", "label": "5 minutes" },
-				{ "value": "10", "label": "10 minutes" },
-				{ "value": "15", "label": "15 minutes" }
+				{
+					"value": "5",
+					"label": "5 minutes"
+				},
+				{
+					"value": "10",
+					"label": "10 minutes"
+				},
+				{
+					"value": "15",
+					"label": "15 minutes"
+				}
 			]
 		}
 	]
